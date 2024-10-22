@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztrációs Űrlap</title>
+</head>
+<body>
+    <h1>Felhasználói regisztráció</h1>
+    <form action="" method="post">
+        <label for="fullname">Teljes név:</label>
+        <input type="text" name="fullname" id="fullname" required><br><br>
+        <!-- required = kötelező elem -->
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="required" required><br><br>
+
+        <label for="password">Jelszó:</label>
+        <input type="password" name="password" id="password" required><br><br>
+
+        <label for="phone">Telefonszám:</label>
+        <input type="text" name="phone" id="phone"><br><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Férfi</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="css">Nő</label><br>
+        <input type="radio" id="other" name="gender" value="othere">
+        <label for="other">Egyéb</label><br><br>
+
+        <label for="color">Kedvenc szín:</label>
+        <input type="color" name="color" id="color"><br><br>
+
+        <label for="profile-pic">Profilkép feltöltése:</label>
+        <input type="file" name="profile-pic" id="profile-pic"><br><br>
+        
+        <label for="Born-date">Születési dátum:</label>
+        <input type="date-time" name="Born-date" id="Born-date"><br><br>
+
+        <label for="Actual-date">Aktuális:</label>
+        <input type="time" name="Actual-date" id="Actual-date"><br><br>
+
+        <label for="interests">Éreklődési szín (1-100):</label>
+        <input type="range" id="interests" name="interests" min="1" max="100"><br><br>
+
+
+        <input type="submit" value="Regisztráció">
+</body>
+</html>
